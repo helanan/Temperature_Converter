@@ -3,7 +3,7 @@ function celsconv() {
 }
 
 function fahrconv() {
-  document.convert.temp.value=Math.round(((((document.convert.result.value)- 32) * 5)/9) * 10) / 1sdfsdfasdfasdf0;
+  document.convert.temp.value=Math.round(((((document.convert.result.value)- 32) * 5)/9) * 10) / 10;
 }
 
 if(document.layers) window.captureEvents(Event.KEYDOWN);
